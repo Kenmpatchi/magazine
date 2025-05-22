@@ -1,4 +1,3 @@
-<%@ page import="com.example.magazine.model.Produit" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
@@ -13,8 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Produits</h1>
-${affiche}
+<h1>Tasks</h1>
+${tasks}
 
 </body>
 </html>

@@ -5,8 +5,10 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<a href="ajout.jsp">ajouter produit</a>
+<a href="ajout.jsp">ajouter task</a>
 <br><br>
-<a href="affiche.jsp">affiche les produit</a>
+<form action="affiche" method="post">
+    <input type="submit" value="Show Tasks">
+</form>
 </body>
 </html>

@@ -1,10 +1,10 @@
-package com.example.magazine;
+package com.example.Task;
 
 
 import java.sql.*;
 
 public class dbconnect {
-    private final String url="jdbc:mysql://localhost:3306/magazin";
+    private final String url="jdbc:mysql://localhost:3306/db_task";
     private final String username="root";
     private final String password=null;
     private Connection conn=null;
